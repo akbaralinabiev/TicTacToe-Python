@@ -22,12 +22,9 @@ This is a command-line implementation of the classic Tic-Tac-Toe game. The game 
 
 ## Customization
 
-- You can customize the game by creating different types of players. Currently, the game supports a Human Player (`HumanPlayer`) and a Random Computer Player (`RandomComputerPlayer`).
+- You can customize the game by creating different types of players. Currently, the game supports a Human Player `HumanPlayer` and a Random Computer Player `RandomComputerPlayer`.
 - To create a new player, create a new class that extends the `Player` class and implement the `get_move` method.
 
-class MyPlayer(Player):
-  def init(self, letter):
-    super().init(letter)
 
 - In the `play` function of `gam.py`, you can modify the players used for the game.
 
