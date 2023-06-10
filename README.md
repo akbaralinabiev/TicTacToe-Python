@@ -26,7 +26,7 @@ This is a command-line implementation of the classic Tic-Tac-Toe game. The game 
 - To create a new player, create a new class that extends the `Player` class and implement the `get_move` method.
 
 
-- In the `play` function of `gam.py`, you can modify the players used for the game.
+- In the `play` function of `game.py`, you can modify the players used for the game.
 
 ## File Structure
 
